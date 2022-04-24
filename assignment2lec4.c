@@ -12,7 +12,7 @@ int main(){
 	    do
     {
        printf (" Select an operation to perform the calculation in C Calculator: ");
-       printf (" \n 1:Addition  \n 2:Subtraction \n 3:Multiplication \n 4:Division  \n 5:Reminder \n 6:increment \n 7:decrement \n 0: to EXIT \n");
+       printf (" \n 1:Addition  \n 2:Subtraction \n 3:Multiplication \n 4:Division  \n 5:Reminder \n 6:increment \n 7:decrement \n 8: to EXIT \n");
        scanf ("%d", &c);
 	   printf (" please enter either one or two operands :");
 	    scanf ("%d %d", &x, &y );
@@ -44,7 +44,7 @@ int main(){
         case 7:
             decrement(x);
             break;
-		 case 0:
+		 case 8:
             exit(0);
 			break;
 
