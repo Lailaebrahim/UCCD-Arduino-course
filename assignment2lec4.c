@@ -56,7 +56,7 @@ int main(){
     } while (c != 0);
 	 return 0;
 }
-   void addition( int n1 , int n2)
+   void addition( int n1 , int n2)		
    {
 	   printf(" the sum = %d", n1+n2);
 
